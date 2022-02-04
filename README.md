@@ -15,11 +15,7 @@ x Make the page look great on all screen sizes (we all love responsive webpages)
 - Add a pop-up that opens when the user clicks on the "Help" button in the bottom right corner. The Pop-up should include a form with email and text input where a user can send us a message (you don't need to send any requests but try to set it up the way that that would be as easy to add as possible)
 
 ## Approach
-<<<<<<< Updated upstream
-I started off forking the project, getting my bearings with GitLab, getting my node packets in order and building a few bare-bones components. My next step was to start in on fetching from the API and hit a roadblock. The API call worked in the browser and in postman but not when trying to access through code. Instead, it continued to return a CORS error. After poking around online and trying to set up a proxy I ended up reaching out for help. This ended up eating into a large chunk of my time. Finally, in order to continue on and not let this step be a bottleneck, I decided to host a copy of the data in the frontend and keep moving.
-=======
 I started off with an ambitious goal of tackling three of the subtasks listed (responsive web, dynamic routing, and modal/pop-up) but ended up with only 1.5 done.
->>>>>>> Stashed changes
 
 Once the Career page displayed a list of mapped listings, I moved on to fleshing out styling and really differentiating how the site should render across different devices. For example: mobile the navigation menu shows only the hamburger and logo, tablet shows all three components, and desktop only the logo and text links appear. Navigation and number of jobs listed in a row were two big items I wanted to make sure had different definitions across devices. On top of this font sizing also scales depending on each device.
 
@@ -27,16 +23,9 @@ At this point I was running short on time and wanted to submit my work on time. 
 
 As an aside: GitLab is something I was learning during this code challenge so there was a small learning curve here too.
 
-<<<<<<< Updated upstream
-I hope this work becomes the basis for a productive conversation.
-
-## Updates
-17 August - Dynamic routing now works!
-=======
 If I had more time, I would figure out why the dynamic routing isn't quite working and then add the modal contact form.
 
 I hope this work becomes the basis for a productive conversation.
 
 ### Originally forked from
 https://gitlab.com/vntrs/code-tests/react-javascript-frontend
->>>>>>> Stashed changes
