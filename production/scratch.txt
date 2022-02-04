@@ -1,0 +1,16 @@
+goals: 
+x build career page
+X fetch job data from API
+- complete two subtasks
+- submit work
+
+
+subtasks:
+x make the page responsive
+- dynamic routing
+- modal/popup for Help - contains a form to send an email so: name, email, subject, text field, submit button
+
+
+
+clean up code
+does TabIndex need to be added in careerlist so for each job listing there's a tab to click to navigate to
