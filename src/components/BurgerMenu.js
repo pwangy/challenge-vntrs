@@ -22,7 +22,7 @@ const Menu = styled.nav`
     padding: 10px;
     font-weight: bold;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
   }
@@ -41,7 +41,7 @@ export const BurgerMenu = ({ open, ...props }) => {
      open={open}
      aria-hidden={!isHidden}
      {...props}>
-     <a href="/" tabIndex={tabIndex}>
+     <a href="/about.html" tabIndex={tabIndex}>
       <span aria-hidden="true" />
       About 
     </a>
