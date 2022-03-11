@@ -41,7 +41,7 @@ export const BurgerMenu = ({ open, ...props }) => {
      open={open}
      aria-hidden={!isHidden}
      {...props}>
-     <a href="/about.html" tabIndex={tabIndex}>
+     <a href="/about" tabIndex={tabIndex}>
       <span aria-hidden="true" />
       About 
     </a>
